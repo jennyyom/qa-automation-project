@@ -12,7 +12,7 @@ This project simulates a real-world QA workflow, including:
 ## Test Coverage
 The project focuses on testing the **Login functionality**, including:
 - Valid login
-- Invalid login
+- Invalid password
 - Empty input fields
 - Error message validation
 
