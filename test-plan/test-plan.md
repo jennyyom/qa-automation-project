@@ -14,7 +14,7 @@ The objective of this testing is to verify that the login feature works correctl
 
 ### In Scope:
 - Valid login
-- Invalid login
+- Invalid password
 - Empty username
 - Empty password
 - Both fields are empty
