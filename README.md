@@ -18,6 +18,7 @@ The project focuses on testing the **Login functionality**, including:
 
 ## Tech Stack
 - Java
+- Python
 - JUnit
 - Docker
 - GitHub
