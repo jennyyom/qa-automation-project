@@ -1,4 +1,6 @@
-TC_006 - Remember Me Checkbox
+# Login Session Test Cases
+
+## TC_006 - Remember Me Checkbox
 Preconditions:
 * User is registered
 
@@ -20,7 +22,7 @@ Expected Result:
 
 ---
 
-TC_007 - Access After Logout
+## TC_007 - Access After Logout
 Preconditions:
 * User is logged in
 
@@ -39,7 +41,7 @@ Expected Result:
 
 ---
 
-TC_008 - Re-login After Session Timeout
+## TC_008 - Re-login After Session Timeout
 Preconditions:
 * User is logged in
 * Session timeout is configured
@@ -59,7 +61,7 @@ Expected Result:
 
 ---
 
-TC_009 - Back Button Behavior After Login
+## TC_009 - Back Button Behavior After Login
 Preconditions:
 * User is logged in
 
