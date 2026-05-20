@@ -43,4 +43,6 @@ qa-automation-project/
 The goal of this project is to demonstrate my ability to apply QA principles in a practical setting and prepare for a role in **QA Automation**.
 
 ## About Me
-I am a QA-focused professional transitioning into the tech industry, with hands-on experience in testing and a strong interest in automation.
+I am a QA-focused professional transitioning into tech, with hands-on experience in test planning, manual testing, and automation. I designed 15+ test cases for login workflows and implemented automated test scripts using JUnit, which I have also applied in larger projects. I independently studied Selenium WebDriver and built browser automation scripts featuring explicit waits and dynamic element handling — reflecting my ability to learn and apply new tools on my own.
+
+
