@@ -25,7 +25,7 @@ Preconditions:
 
 Test Data:
 * Username: tomsmith
-* Password: Password!
+* Password: wrongPassword123
 
 Steps:
 1. Go to the login page
@@ -83,7 +83,7 @@ Preconditions:
 
 Test Data:
 * Username: (empty)
-* * Password: (empty)
+* Password: (empty)
 
 Steps:
 1. Go to the login page
