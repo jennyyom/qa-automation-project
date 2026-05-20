@@ -4,6 +4,10 @@
 Preconditions:
 - User is registered
 
+Test Data:
+* Username: tomsmith
+* Password: Password!
+
 Steps:
 1. Go to the login page
 2. Enter a valid username
@@ -18,6 +22,10 @@ Expected Result:
 ## TC_002 - Invalid Password
 Preconditions:
 - User is registered
+
+Test Data:
+* Username: tomsmith
+* Password: Password!
 
 Steps:
 1. Go to the login page
@@ -35,6 +43,10 @@ Expected Result:
 Preconditions:
 - Username field is empty
 
+Test Data:
+* Username: (empty)
+* Password: Password!
+
 Steps:
 1. Go to the login page
 2. Enter a valid password
@@ -50,6 +62,10 @@ Expected Result:
 Preconditions:
 - Password field is empty
 
+Test Data:
+* Username: tomsmith
+* Password: (empty)
+
 Steps:
 1. Go to the login page
 2. Enter a valid username
@@ -64,6 +80,10 @@ Expected Result:
 ## TC_005 - Both Fields Empty
 Preconditions:
 - Both username and password fields are empty
+
+Test Data:
+* Username: (empty)
+* * Password: (empty)
 
 Steps:
 1. Go to the login page
