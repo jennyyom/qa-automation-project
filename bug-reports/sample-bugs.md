@@ -6,6 +6,7 @@
 
 **Title:** Login button does not respond when fields are empty  
 **Severity:** High  
+**Related TC** TC_005
 
 ### Steps to Reproduce:
 1. Go to the login page
@@ -24,6 +25,7 @@
 
 **Title:** Incorrect error message for invalid password  
 **Severity:** Medium  
+**Related TC** TC_002
 
 ### Steps to Reproduce:
 1. Go to the login page
