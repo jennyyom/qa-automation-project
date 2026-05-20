@@ -32,14 +32,14 @@ Testing will include:
 - Manual testing for test case validation
 - Functional testing of login workflow
 - Negative testing for invalid inputs
-- Basic automation using JUnit
+- Basic automation using JUnit and Selenium WebDriver
 
 ---
 
 ## 5. Test Environment
 - Operating System: Windows / MacOS
 - Browser: Chrome (latest version)
-- Tools: GitHub, JUnit
+- Tools: GitHub, JUnit, Selenium WebDriver
 - Environment: Local + Docker-based setup
 
 ---
