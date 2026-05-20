@@ -28,7 +28,7 @@ def test_invalid_password():
     wait.until(EC.presence_of_element_located((By.ID, "username"))).send_keys("tomsmith")
     driver.find_element(By.ID, "password").send_keys("wrongPassword123")
     driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
-    error = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".flash.error")))
+    error = wait.until(EC.presence_of_element_located((By.ID, "flash")))
     print("TC_002 PASS:", error.text)
 
 # TC_003 - Empty Username
@@ -37,7 +37,7 @@ def test_empty_username():
     wait.until(EC.presence_of_element_located((By.ID, "username"))).send_keys("")
     driver.find_element(By.ID, "password").send_keys("SuperSecretPassword!")
     driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
-    error = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".flash.error")))
+    error = wait.until(EC.presence_of_element_located((By.ID, "flash")))
     print("TC_003 PASS:", error.text)
 
 # Run all tests
