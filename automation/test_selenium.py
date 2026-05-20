@@ -9,7 +9,7 @@ import time
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
-driver.get("https://www.google.com")
+driver.get("https://the-internet.herokuapp.com/login")
 driver.maximize_window()
 
 # QA approach: waiting for conditions
