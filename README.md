@@ -1,48 +1,62 @@
-# QA-automation-project
-This repository showcases my QA testing and automation skills through practical examples of testing a login feature in a web/mobile application.
+# QA Automation Project
+
+This repository demonstrates my QA testing and automation skills through 
+practical examples of testing login functionality in a web application.
 
 ## Project Overview
+
 This project simulates a real-world QA workflow, including:
-- Test case design
+
+- Test case design (15+ scenarios)
 - Functional and negative testing
-- Basic test automation using JUnit
-- Bug reporting
+- Test automation using Selenium WebDriver (Python)
+- Structured bug reporting
 - Docker-based test environment setup
 
 ## Test Coverage
+
 The project focuses on testing the **Login functionality**, including:
+
 - Valid login
 - Invalid password
 - Empty input fields
 - Error message validation
 
 ## Tech Stack
-- Java
-- Python
-- JUnit
-- Docker
-- GitHub
+
+- **Python** — Selenium WebDriver automation scripts
+- **Selenium WebDriver** — Browser automation
+- **webdriver-manager** — Automatic ChromeDriver management
+- **JUnit** — Applied in coursework and larger projects
+- **Docker** — Test environment setup
+- **GitHub** — Version control
 
 ## Project Structure
 qa-automation-project/
 │
-├── test-cases/ # Manual test cases
-├── test-plan/ # Test planning documents
-├── automation/ # JUnit test scripts
-├── bug-reports/ # Sample bug reports
-├── docker/ # Environment setup
+├── automation/        # Selenium WebDriver test scripts (Python)
+├── test-cases/        # Manual test case documentation
+├── test-plan/         # Test planning documents
+├── bug-reports/       # Structured bug reports
+├── docker/            # Test environment setup
 └── README.md
 
 ## Highlights
-- Created **15+ test cases** for login scenarios  
-- Implemented **automated test scripts using JUnit**  
-- Simulated real-world QA workflow and documentation  
-- Practiced structured bug reporting
 
-## Goal
-The goal of this project is to demonstrate my ability to apply QA principles in a practical setting and prepare for a role in **QA Automation**.
+- Designed and executed **15+ test cases** covering positive 
+  and negative scenarios for login workflows
+- Built **Selenium WebDriver scripts** with explicit waits and 
+  dynamic element handling for stable test execution
+- Produced complete QA documentation: test plan, test cases, 
+  and defect reports following industry-standard practices
+- Independently studied and applied Selenium WebDriver, 
+  demonstrating ability to learn new tools without guidance
 
 ## About Me
-I am a QA-focused professional transitioning into tech, with hands-on experience in test planning, manual testing, and automation. I designed 15+ test cases for login workflows and implemented automated test scripts using JUnit, which I have also applied in larger projects. I independently studied Selenium WebDriver and built browser automation scripts featuring explicit waits and dynamic element handling — reflecting my ability to learn and apply new tools on my own.
 
-
+I am a QA-focused Software Engineer transitioning into the tech industry,
+with hands-on experience in test planning, manual testing, and automation.
+I independently studied Selenium WebDriver and built browser automation
+scripts featuring explicit waits and dynamic element handling.
+Currently expanding into mobile and web application development
+using Flutter and Firebase.
