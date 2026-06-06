@@ -16,8 +16,10 @@ URL = "https://the-internet.herokuapp.com/login"
 def driver():
     options = webdriver.ChromeOptions()
 
-    # CI에서도 실행 가능하게 기본 안정 옵션
-    options.add_argument("--start-maximized")
+    # CI + 로컬 둘 다 안전
+    options.add_argument("--headless=new")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
 
     driver = webdriver.Chrome(
         service=Service(ChromeDriverManager().install()),
